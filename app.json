@@ -1,0 +1,23 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/idBattery/INFO2300_Assignment03"
+    },
+    {
+      "url": "heroku/Java"
+    }
+  ],
+  "description": "",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "INFO2300_Assignment03",
+  "scripts": {
+    "postdeploy": "bin/setup"
+  },
+  "stack": "heroku-18"
+}
